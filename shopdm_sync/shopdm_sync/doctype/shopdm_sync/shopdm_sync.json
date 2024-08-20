@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-20 12:16:57.720534",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shopdm_csv",
+  "column_break_vmhh",
+  "min_quantity",
+  "section_break_bwsc",
+  "price_list",
+  "column_break_gavr",
+  "warehouse",
+  "section_break_bbpz",
+  "item_update_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Link",
+   "label": "Price List",
+   "options": "Price List"
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "label": "Warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "column_break_gavr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "min_quantity",
+   "fieldtype": "Data",
+   "label": "Set Quantity To 0 if Less Than :"
+  },
+  {
+   "fieldname": "section_break_bbpz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "item_update_table",
+   "fieldtype": "Table",
+   "label": "Item Update Table",
+   "options": "ShopDM Item Update Table"
+  },
+  {
+   "fieldname": "shopdm_csv",
+   "fieldtype": "Attach",
+   "label": "Attatch ShopDM Export CSV Here"
+  },
+  {
+   "fieldname": "section_break_bwsc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vmhh",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-08-20 13:27:58.390968",
+ "modified_by": "Administrator",
+ "module": "ShopDM Sync",
+ "name": "ShopDM Sync",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
